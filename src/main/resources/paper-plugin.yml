@@ -1,0 +1,12 @@
+name: Countries
+version: '1.0'
+main: net.worldmc.countries.Countries
+api-version: '1.21'
+dependencies:
+  server:
+    Vault:
+      load: BEFORE
+      required: true
+    SquareMap:
+      load: BEFORE
+      required: true
